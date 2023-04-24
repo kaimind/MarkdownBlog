@@ -1,8 +1,8 @@
 # MarkdownBlog
 
-## 目的
+## 目标
 
-本项目的功能类似Hugo，用于在GitHub page上写博客。目的是更简单，更灵活。
+本项目的功能类似Hugo，用于在GitHub page上写博客。目标是更简单，更灵活。
 
 ### 简单
 
@@ -18,7 +18,7 @@
 
 ## 本地预览
 
-本来最理想的状态是，只需要用浏览器打开本地的index.html文件就能预览。但是，ajax在获取markdown文件的时候会触发跨域问题，所以，还是需要使用一个静态服务器。建议在vscode里面使用插件live server。好在markdown也是在vscode里面编辑的，这就很方便。
+本来最理想的状态是，只需要用浏览器打开本地的index.html文件就能预览。但是，ajax在获取本地的markdown文件的时候会触发跨域问题，所以，还是需要使用一个静态服务器。建议在vscode里面使用插件live server来实现。好在markdown也是在vscode里面编辑的，这就很方便。
 
 ## 写文章
 
@@ -29,3 +29,8 @@
 ## 修改外观
 
 要修改博客的外观，就编辑index.html文件。
+
+## 使用到的开源项目
+
+- [Semantic UI](https://semantic-ui.com/)
+- [Marked js](https://marked.js.org/)
